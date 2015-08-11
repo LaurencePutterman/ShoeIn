@@ -92,10 +92,23 @@ header.carousel .fill {
     font-style: italic;
 }
 
+.btn:hover{
+    background-color:#5c9e35;
+    border-color: #7da669;
+}
+
 /* Footer Styles */
 
 footer {
     margin: 50px 0;
+}
+body.scrolled .navbar{
+    opacity:0.8;
+    transition: opacity .2s;
+}
+body.scrolled .navbar:hover{
+    opacity:1.0;
+    transition: opacity .2s;
 }
 
 /* Responsive Styles */
